@@ -39,7 +39,7 @@ export const INITIAL_RECIPES: Recipe[] = [
       '1 shot o 60 ml de limón',
       '1 shot de azucar',
       'Hielo',
-      ''
+      '30 ml de triple sec'
     ],
     instructions: [
       'Agregar 1/2 shot de tequila, 1/2 shot de triple sec y 1 shot de limón a la licuadora.',
@@ -63,10 +63,15 @@ export const INITIAL_RECIPES: Recipe[] = [
       '30 ml de limón',
       '1 shot de azucar',
       '30 ml o 1/2 shot de triple sec',
+      '1 shot de jugo de maracuyá',
       'Hielo',
     ],
     instructions: [
-      'Cortar los limones en trozos y agregarlos al vaso.',
+      'Agregar 1/2 shot de tequila, 1/2 shot de triple sec y 1/2 shot de limón y un shot de jugo de maracuyá a la licuadora.',
+      'Licuar con hielo hasta obtener frappé',
+      'Michelar el vaso de margarita por la mitad y decorar con tajin al lado',
+      'completar con otro 1/2 shot de tequila en el vaso',
+      'servir en el vaso de margarita y decorar con limon en rodajas'
     ],
     servings: 1
   },
@@ -86,7 +91,7 @@ export const INITIAL_RECIPES: Recipe[] = [
      
     ],
     instructions: [
-      'Agregar los tres shots en una copa huracan.',
+      'Agregar los tres shots de jugo de corozo en una copa huracan.',
       'Agregar el azúcar y mezclar suavemente.',
       'Completar con hielo al tope.'
     ],
@@ -108,7 +113,9 @@ export const INITIAL_RECIPES: Recipe[] = [
      
     ],
     instructions: [
-      'Cortar los limones en trozos y agregarlos al vaso.',
+      'Agregar los tres shots de jugo de maracuyá en una copa huracan.',
+      'Agregar el azúcar y mezclar suavemente.',
+      'Completar con hielo al tope.'
     ],
     servings: 1
   }
