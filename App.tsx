@@ -9,8 +9,6 @@ const App: React.FC = () => {
   const [recipes, setRecipes] = useState<Recipe[]>(INITIAL_RECIPES);
   const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
-  const [isAILoading, setIsAILoading] = useState(false);
-  const [aiPrompt, setAiPrompt] = useState('');
   const [activeCategory, setActiveCategory] = useState('Todos');
 
   const categories = ['Todos', ...Array.from(new Set(INITIAL_RECIPES.map(r => r.category)))];

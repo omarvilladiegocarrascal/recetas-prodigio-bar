@@ -9,11 +9,11 @@ export const INITIAL_RECIPES: Recipe[] = [
     image: 'https://imag.bonviveur.com/mojito-cubano.jpg',
     time: '5 min',
     difficulty: 'Fácil',
-    category: 'Coctelería',
+    category: 'Mojito',
     ingredients: [
       '60 ml o un shot de aguardiente',
       '1 lima',
-      '2 cucharaditas de azúcar',
+      '1 shot de azucar',
       'Hojas de hierbabuena',
       'Hielo',
       'Agua con gas'
@@ -23,6 +23,69 @@ export const INITIAL_RECIPES: Recipe[] = [
       'Añadir las hojas de hierbabuena y presionar ligeramente.',
       'Agregar el ron y hielo al tope pero que quede espacio.',
       'Completar con soda y mezclar suavemente.'
+    ],
+    servings: 1
+  },
+  {
+    id: '2',
+    title: 'Margarita Clásica',
+    description: 'Clásico cóctel mexicano con tequila, triple seco y lima. Cítrico, con sal en el borde y perfecto para cualquier ocasión.',
+    image: 'https://imag.bonviveur.com/margarita.jpg',
+    time: '5 min',
+    difficulty: 'Fácil',
+    category: 'Margaritas',
+    ingredients: [
+      '60 ml o un shot de tequila',
+      '1 shot o 60 ml de limón',
+      '2 cucharaditas de azúcar',
+      'Hielo',
+      'Agua con gas'
+    ],
+    instructions: [
+      'Cortar los limones en trozos y agregarlos al vaso.',
+      'Añadir las hojas de hierbabuena y presionar ligeramente.',
+      'Agregar el ron y hielo al tope pero que quede espacio.',
+      'Completar con soda y mezclar suavemente.'
+    ],
+    servings: 1
+  },
+  {
+    id: '3',
+    title: 'Margarita Maracuyá',
+    description: 'Clásico cóctel mexicano con tequila, triple seco y lima. Cítrico, con sal en el borde y perfecto para cualquier ocasión.',
+    image: 'https://media-cdn.tripadvisor.com/media/photo-s/1d/02/07/14/margarita-de-maracuya.jpg',
+    time: '5 min',
+    difficulty: 'Fácil',
+    category: 'Margaritas',
+    ingredients: [
+      '60 ml o un shot de tequila',
+      '30 ml de limón',
+      '1 shot de azucar',
+      '30 ml o 1/2 shot de triple sec',
+      'Hielo',
+    ],
+    instructions: [
+      'Cortar los limones en trozos y agregarlos al vaso.',
+    ],
+    servings: 1
+  },
+  {
+    id: '4',
+    title: 'Jugo de Corozo',
+    description: 'Clásico cóctel mexicano con tequila, triple seco y lima. Cítrico, con sal en el borde y perfecto para cualquier ocasión.',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Hurricane_at_Pat_O%27Brien%27s.JPG/960px-Hurricane_at_Pat_O%27Brien%27s.JPG',
+    time: '5 min',
+    difficulty: 'Fácil',
+    category: 'Jugos',
+    ingredients: [
+      '180 ml o u 3 shot de jugo de corozo',
+      '1 shot de azucar',
+      'Hielo',
+      'uva isabella de decoración'
+     
+    ],
+    instructions: [
+      'Cortar los limones en trozos y agregarlos al vaso.',
     ],
     servings: 1
   }
