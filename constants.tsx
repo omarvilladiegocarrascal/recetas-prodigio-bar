@@ -37,15 +37,16 @@ export const INITIAL_RECIPES: Recipe[] = [
     ingredients: [
       '60 ml o un shot de tequila',
       '1 shot o 60 ml de limón',
-      '2 cucharaditas de azúcar',
+      '1 shot de azucar',
       'Hielo',
-      'Agua con gas'
+      ''
     ],
     instructions: [
-      'Cortar los limones en trozos y agregarlos al vaso.',
-      'Añadir las hojas de hierbabuena y presionar ligeramente.',
-      'Agregar el ron y hielo al tope pero que quede espacio.',
-      'Completar con soda y mezclar suavemente.'
+      'Agregar 1/2 shot de tequila, 1/2 shot de triple sec y 1 shot de limón a la licuadora.',
+      'Licuar con hielo hasta obtener frappé',
+      'Michelar el vaso de margarita por la mitad y decorar con tajin al lado',
+      'completar con otro 1/2 shot de tequila en el vaso',
+      'servir en el vaso de margarita y decorar con limon en rodajas'
     ],
     servings: 1
   },
@@ -72,15 +73,37 @@ export const INITIAL_RECIPES: Recipe[] = [
   {
     id: '4',
     title: 'Jugo de Corozo',
-    description: 'Clásico cóctel mexicano con tequila, triple seco y lima. Cítrico, con sal en el borde y perfecto para cualquier ocasión.',
+    description: 'Refrescante jugo tropical hecho con corozo, una fruta típica del Caribe. Dulce, ligeramente ácido y perfecto para hidratarse en días calurosos.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Hurricane_at_Pat_O%27Brien%27s.JPG/960px-Hurricane_at_Pat_O%27Brien%27s.JPG',
     time: '5 min',
     difficulty: 'Fácil',
     category: 'Jugos',
     ingredients: [
-      '180 ml o u 3 shot de jugo de corozo',
+      '180 ml o u 3 shots de jugo de corozo',
       '1 shot de azucar',
       'Hielo',
+      'uva isabella de decoración'
+     
+    ],
+    instructions: [
+      'Agregar los tres shots en una copa huracan.',
+      'Agregar el azúcar y mezclar suavemente.',
+      'Completar con hielo al tope.'
+    ],
+    servings: 1
+  },
+  {
+    id: '5',
+    title: 'Jugo de Maracuyá',
+    description: 'Refrescante jugo tropical hecho con maracuyá, una fruta tropical típica del Caribe. Dulce, ligeramente ácido y perfecto para hidratarse en días calurosos.',
+    image: 'https://dmglassware.com/wp-content/uploads/2025/04/What-Is-a-Hurricane-Cocktail-Glass.jpg',
+    time: '5 min',
+    difficulty: 'Fácil',
+    category: 'Jugos',
+    ingredients: [
+      '180 ml o u 3 shots de jugo de maracuyá',
+      '1 shot de azucar',
+      'Hielo al tope',
       'uva isabella de decoración'
      
     ],
