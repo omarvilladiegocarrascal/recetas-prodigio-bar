@@ -1,0 +1,6 @@
+
+{
+  "name": "Recetas Bar - Restaurante Prodigio",
+  "description": "Descubre nuestras deliciosas recetas y disfruta de una experiencia culinaria única en nuestro restaurante.",
+  "requestFramePermissions": ["camera", "microphone"]
+}
