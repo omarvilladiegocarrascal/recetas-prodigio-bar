@@ -118,6 +118,73 @@ export const INITIAL_RECIPES: Recipe[] = [
       'Completar con hielo al tope.'
     ],
     servings: 1
+  },
+  {
+    id: '6',
+    title: 'Jugo de Mandarina',
+    description: 'Refrescante jugo tropical hecho con mandarina, una fruta tropical típica del Caribe. Dulce, ligeramente ácido y perfecto para hidratarse en días calurosos.',
+    image: 'https://dmglassware.com/wp-content/uploads/2025/04/What-Is-a-Hurricane-Cocktail-Glass.jpg',
+    time: '5 min',
+    difficulty: 'Fácil',
+    category: 'Jugos',
+    ingredients: [
+      '1 pulpa de mandarina',
+      '1 shot de azucar',
+      'hielo para frappear',
+      'uva isabella de decoración'
+     
+    ],
+    instructions: [
+      'Agregar la pulpa de mandarina en la licuadora.',
+      'Agregar 1 shot de azucar a la licuadora.',
+      'Completar con poco hielo para frappear.',
+      'servir en una copa huracan y decorar con uva isabella o limón'
+    ],
+    servings: 1
+  },
+  {
+    id: '7',
+    title: 'Jugo de Fresa',
+    description: 'Refrescante jugo tropical hecho con fresa, una fruta tropical típica del Caribe.',
+    image: 'https://dmglassware.com/wp-content/uploads/2025/04/What-Is-a-Hurricane-Cocktail-Glass.jpg',
+    time: '5 min',
+    difficulty: 'Fácil',
+    category: 'Jugos',
+    ingredients: [
+      '1 pulpa de fresa, una bolsa de fresas congeladas si no hay pulpa',
+      '1 shot de azucar',
+      'hielo para frappear',
+     
+    ],
+    instructions: [
+      'Agregar la pulpa de fresa en la licuadora.',
+      'Agregar 1 shot de azucar a la licuadora.',
+      'Completar con poco hielo para frappear.',
+      'servir en una copa huracan y decorar con uva isabella o limón'
+    ],
+    servings: 1
+  },
+  {
+    id: '8',
+    title: 'Jugo de Mora',
+    description: 'Refrescante jugo tropical hecho con mora, una fruta tropical típica del Caribe.',
+    image: 'https://dmglassware.com/wp-content/uploads/2025/04/What-Is-a-Hurricane-Cocktail-Glass.jpg',
+    time: '5 min',
+    difficulty: 'Fácil',
+    category: 'Jugos',
+    ingredients: [
+      '1 pulpa de mora, una bolsa de moras congeladas si no hay pulpa', 
+      '1 shot de azucar',
+      'hielo para frappear',
+     
+    ],
+    instructions: [
+      'Agregar la pulpa de mora en la licuadora.',
+      'Agregar 1 shot de azucar a la licuadora.',
+      'Completar con poco hielo para frappear.',
+      'servir en una copa huracan y decorar con uva isabella o limón'
+    ],
+    servings: 1
   }
  
   
