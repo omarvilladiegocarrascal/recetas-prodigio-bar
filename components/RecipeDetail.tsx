@@ -25,7 +25,7 @@ const RecipeDetail: React.FC<RecipeDetailProps> = ({ recipe, onClose }) => {
           <img 
             src={recipe.image} 
             alt={recipe.title} 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent md:hidden" />
           <div className="absolute bottom-6 left-6 text-white md:hidden">
